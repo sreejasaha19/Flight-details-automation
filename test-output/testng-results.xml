@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T11:12:44 IST" name="Suite" finished-at="2025-03-18T11:13:41 IST" duration-ms="57676">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T11:12:44 IST" name="chrome test" finished-at="2025-03-18T11:13:41 IST" duration-ms="57676">
+      <class name="testCases.Main">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:12:44 IST" name="setUp" finished-at="2025-03-18T11:12:57 IST" duration-ms="13254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectCity()[pri:1, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:12:57 IST" name="selectCity" finished-at="2025-03-18T11:13:05 IST" duration-ms="7476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="selectDate()[pri:2, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:05 IST" name="selectDate" finished-at="2025-03-18T11:13:07 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method signature="selectclass()[pri:3, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:07 IST" name="selectclass" finished-at="2025-03-18T11:13:22 IST" duration-ms="14964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectclass -->
+        <test-method signature="selectIndigo()[pri:4, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:23 IST" name="selectIndigo" finished-at="2025-03-18T11:13:32 IST" duration-ms="9225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectIndigo -->
+        <test-method signature="indigoDetails()[pri:5, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:32 IST" name="indigoDetails" finished-at="2025-03-18T11:13:37 IST" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indigoDetails -->
+        <test-method signature="printFlightdetails()[pri:6, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:37 IST" name="printFlightdetails" finished-at="2025-03-18T11:13:38 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printFlightdetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Main@222eb8aa]" started-at="2025-03-18T11:13:38 IST" name="tearDown" finished-at="2025-03-18T11:13:41 IST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Main -->
+    </test> <!-- chrome test -->
+  </suite> <!-- Suite -->
+</testng-results>

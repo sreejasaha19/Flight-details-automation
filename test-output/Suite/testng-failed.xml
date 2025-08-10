@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="1" name="edge test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.Main">
+        <methods>
+          <include name="setUp"/>
+          <include name="selectDate"/>
+          <include name="selectCity"/>
+          <include name="selectclass"/>
+        </methods>
+      </class> <!-- testCases.Main -->
+    </classes>
+  </test> <!-- edge test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
